@@ -1,0 +1,19 @@
+#textInForm{
+    resize: none;
+}
+
+.RateSection{
+    background-size: cover;
+    background-color: #F6F6F6;
+    min-height: 90vh;
+    width: 100%;
+}
+
+#imgForRate{
+    border-radius: 1rem;
+}
+
+#carousel{
+    background-size: cover;
+    width: 100%;
+}

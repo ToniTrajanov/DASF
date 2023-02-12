@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    color: #73a24e;
+}
+
+.nav-link{
+    color: darkslategrey;
+}
+
+.nav-link:hover{
+    color: #73a24e;
+    transition: 0.3s;
+}
+
+.nav-item{
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.btn0{
+    height: 50px;
+    width: 120px;
+    color: white;
+    background-color: #416a59;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn0:hover{
+    background:#73a24e;
+    transition: all 0.3s;
+}
+
+.btn1{
+    height: 50px;
+    width: 120px;
+    color: #416a59;
+    background-color: transparent;
+    outline: none;
+    border: #416a59 2px solid;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn1:hover{
+    color: white;
+    background:#73a24e;
+    outline: none;
+    transition: all 0.3s;
+    border: none;
+}
+
+.mainHome{
+    background: url("../images/photo.jpg")no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.mainHome h1{
+    color: #416a59;
+    font-size: 5.5rem;
+    font-weight: 600;
+    text-align: right;
+}
+
+.photo{
+    width:5rem;
+    height:5rem;
+}
+
+.footer{
+    background: #416a59;
+    color: white;
+
+}
+
+.footer p{
+    color: beige;
+}
+
+.linkPage{
+    color: white;
+}
+
+.linkPage:hover{
+    color: beige;
+}
+
+.link{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.copyright{
+    background-color: #226a4f;
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/css/LoginAndRegister.css">
+
+    <!-- API for font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4bf94b4b7.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .navbar-brand{
+            font-size: 3rem;
+            color: #73a24e;
+        }
+
+        .nav-link{
+            color: darkslategrey;
+        }
+
+        .nav-link:hover{
+            color: #73a24e;
+            transition: 0.3s;
+        }
+
+        .nav-item{
+            padding-left: 50px;
+            font-weight: 500;
+        }
+
+        .btn0{
+            height: 50px;
+            width: 120px;
+            color: white;
+            background-color: #416a59;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn0:hover{
+            background:#73a24e;
+            transition: all 0.3s;
+        }
+
+        .btn1{
+            height: 50px;
+            width: 120px;
+            color: #416a59;
+            background-color: transparent;
+            outline: none;
+            border: #416a59 2px solid;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn1:hover{
+            color: white;
+            background:#73a24e;
+            outline: none;
+            transition: all 0.3s;
+            border: none;
+        }
+
+        .mainHome{
+            background: url(../static/images/photo.jpg)no-repeat;
+            background-size: cover;
+            min-height: 90vh;
+            width: 100%;
+        }
+
+        .mainHome h1{
+            color: #416a59;
+            font-size: 5.5rem;
+            font-weight: 600;
+            text-align: right;
+        }
+
+        .photo{
+            width:5rem;
+            height:5rem;
+        }
+
+        .footer{
+            background: #416a59;
+            color: white;
+
+        }
+
+        .footer p{
+            color: beige;
+        }
+
+        .linkPage{
+            color: white;
+        }
+
+        .linkPage:hover{
+            color: beige;
+        }
+
+        .link{
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .copyright{
+            background-color: #226a4f;
+        }
+        .Form{
+            background: #416a59;
+            background: url("../static/images/photo.jpg")no-repeat;
+            background-size: cover;
+        }
+
+        .row{
+            background: white;
+            border-radius: 2rem;
+            box-shadow: 1rem 1rem 1.5rem;
+        }
+
+        img{
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+        }
+
+        h4{
+            color: #416a59;
+        }
+
+        a{
+            color: #73a24e;
+        }
+
+        a:hover{
+            color: #416a59;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<section class="Form py-1">
+    <div class="container py-5">
+        <div class="row g-0">
+            <div class="col-lg-7 px-5 pt-5">
+                <h4>Најавете се:</h4>
+
+                <form method="post" action="/login">
+                    <div class="form-row">
+                        <div class="col-lg-7">
+                            <input name="username" type="text" class="form-control my-3 p-4" placeholder="Вашата e-mail адреса">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-lg-7">
+                            <input name="password" type="password" class="form-control my-3 p-4" placeholder="Вашата лозинка">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-lg-7">
+                            <button type="submit" class="btn0 mt-3 mb-5">Login</button>
+                        </div>
+                    </div>
+
+                    <a href="#">Заборавена лозинка?</a>
+                    <p>Немате профил?
+                        <a href="/register"> Регистрирајте се</a>
+                    </p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>

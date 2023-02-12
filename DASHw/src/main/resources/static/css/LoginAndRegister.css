@@ -1,0 +1,28 @@
+.Form{
+    background: #416a59;
+    background: url("../images/photo.jpg")no-repeat;
+    background-size: cover;
+}
+
+.row{
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1.5rem;
+}
+
+img{
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+h4{
+    color: #416a59;
+}
+
+a{
+    color: #73a24e;
+}
+
+a:hover{
+    color: #416a59;
+}
